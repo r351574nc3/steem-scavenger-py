@@ -1,0 +1,24 @@
+{
+    "voters": {
+        "socky": {
+            "wif": ""
+        }, 
+        "r351574nc3": {
+            "wif": ""
+        },
+        "bot": {
+            "wif": "",
+            "delay": 1800
+        }
+    },
+    "authors": {
+        "r351574nc3": {
+            "upvote_weight": 100,
+            "upvote_limit": 1
+        },
+        "socky": {
+            "upvote_weight": 100,
+            "upvote_limit": 1
+        }
+    }
+}
