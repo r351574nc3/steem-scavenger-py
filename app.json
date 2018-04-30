@@ -1,0 +1,12 @@
+{
+    "name": "Steem Scavenger Bot",
+    "description": "Bot for voting and stuff",
+    "image": "heroku/python",
+    "repository": "https://github.com/r351574nc3/steem-scavenger-py",
+    "keywords": ["python", "steem" ],
+    "addons": [ ],
+    "env": {
+    },
+    "environments": {
+    }
+  }
