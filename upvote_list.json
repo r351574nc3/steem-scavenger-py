@@ -1,14 +1,7 @@
 {
     "voters": {
-        "socky": {
-            "wif": ""
-        }, 
         "r351574nc3": {
-            "wif": ""
-        },
-        "bot": {
-            "wif": "",
-            "delay": 1800
+            "wif": "5KKvFESaGqHvM7xpZ4soQb84bo8eBvr8tFVAXVKCcKfmYNQB8sP"
         }
     },
     "authors": {

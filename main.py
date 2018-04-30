@@ -1,5 +1,3 @@
-from contextlib import suppress
-
 from steem import Steem
 from steem.blockchain import Blockchain
 from steem.post import Post
@@ -39,11 +37,11 @@ def schedule_vote(upvote_list, username, author):
 
 def run():
     username   = os.environ.get("STEEM_NAME")
-    steem      = Steem(wif=wif)
     blockchain = Blockchain()
     stream     = map(Post, blockchain.stream(filter_by=["comment"]))
     upvote_list= json.load(open('upvote_list.json'))
-    wif        = upvote_list["voters"][username][wif]
+    wif        = upvote_list["voters"][username]["wif"]
+    steem      = Steem(wif=wif)
     upvoted    = {}
     date       = int(time.strftime("%d"))
     hour       = int(time.strftime("%-H"))
